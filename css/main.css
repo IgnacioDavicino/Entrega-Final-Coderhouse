@@ -1,15 +1,3 @@
-footer {
-  color: white;
-  flex-direction: row;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem; }
-  footer ul {
-    list-style: none; }
-  footer li {
-    margin-bottom: 1rem; }
-
 * {
   font-family: 'Julius Sans One', sans-serif; }
 
@@ -24,9 +12,21 @@ body {
     border-radius: 50%;
     width: 40%; }
 
+.carousel img {
+  width: 100%; }
+
 .navbar img {
   height: 30px;
   width: 30px; }
 
-.carousel img {
-  width: 100%; }
+footer {
+  color: white;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem; }
+  footer ul {
+    list-style: none; }
+  footer li {
+    margin-bottom: 1rem; }

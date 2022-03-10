@@ -1,0 +1,24 @@
+*{
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+body{
+    background:map-get($map: $colors, $key:'gradient' );
+}
+
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        border-radius: 50%;
+    width: 40%;
+    }
+}
+
+.carousel{
+    img{
+        width: 100%;
+    }
+}
