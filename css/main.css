@@ -1,7 +1,7 @@
 * {
   font-family: 'Julius Sans One', sans-serif; }
 
-body {
+body, .card-title {
   background: linear-gradient(to right, #E4E5E6, #00416A); }
 
 .section {
@@ -9,11 +9,14 @@ body {
   justify-content: center;
   align-items: center; }
   .section img {
-    border-radius: 50%;
-    width: 40%; }
+    border-radius: 40%;
+    width: 50%; }
 
 .carousel img {
   width: 100%; }
+
+.card-title {
+  color: white; }
 
 .navbar img {
   height: 30px;
