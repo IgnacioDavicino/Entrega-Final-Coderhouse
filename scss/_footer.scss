@@ -1,14 +1,17 @@
 footer{
     color: white;
-    flex-direction: row;
+    flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    ul{
-        list-style: none;
-    }
-    li{
-        margin-bottom: 1rem;
-    }
+    .footer__ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;}
+    .footer__ul li{
+    margin: 1rem;}
+    footer i{
+    font-size: 2rem;
+    color: white;}
 }

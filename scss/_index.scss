@@ -1,0 +1,28 @@
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        @include radioyancho(40%,50%)
+    }
+}
+
+.carousel{
+    img{
+        width: 100%;
+    }
+}
+
+.card-title{
+    @extend body;
+    color:white;
+    border-radius: 5%;
+    .card-body{
+        background: slategray;
+        color: white;
+    }
+}
+.navbar__logo{
+    height: 30px;
+    width: 30px;
+}
