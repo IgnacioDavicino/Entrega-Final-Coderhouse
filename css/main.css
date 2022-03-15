@@ -21,7 +21,7 @@ footer {
     flex-direction: row; }
   footer .footer__ul li {
     margin: 1rem; }
-  footer footer i {
+  footer i {
     font-size: 2rem;
     color: white; }
 
@@ -41,7 +41,7 @@ footer {
   align-items: center; }
   .section img {
     border-radius: 40%;
-    width: 50%; }
+    width: 100%; }
 
 .carousel img {
   width: 100%; }
@@ -56,3 +56,50 @@ footer {
 .navbar__logo {
   height: 30px;
   width: 30px; }
+
+.section__nosotros {
+  display: flex;
+  flex-direction: row;
+  background-image: url(../img/nosotrosbg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.nosotros__img {
+  width: 100%;
+  border-radius: 50%;
+  padding: 1rem; }
+
+.section__texto {
+  color: white; }
+
+/* Section 2 */
+.section__banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: slategray; }
+
+.section__banner h3 {
+  margin: 1rem; }
+
+.banner__ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 2rem;
+  overflow: auto; }
+
+.banner__ul li {
+  margin: 1rem; }
+
+.banner__titulos {
+  transition: 1s;
+  text-decoration: underline; }
+
+.banner__titulos:hover {
+  transform: scale(1.2); }
+
+.swipe {
+  display: none; }
