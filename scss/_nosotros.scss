@@ -5,18 +5,15 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    .nosotros__img{
+        width: 100%;
+        border-radius: 50%;
+        padding: 1rem;
+    }
+    .section__texto{
+        color: white;
+    }
 }
-
-.nosotros__img{
-    width: 100%;
-    border-radius: 50%;
-    padding: 1rem;
-}
-
-.section__texto{
-    color: white;
-}
-
 
 /* Section 2 */
 
@@ -26,10 +23,9 @@
     justify-content: center;
     text-align: center;
     background: slategray;
-}
-
-.section__banner h3{
-    margin: 1rem;
+    .section__banner h3{
+        margin: 1rem;
+    }
 }
 
 .banner__ul{
@@ -38,21 +34,17 @@
     list-style: none;
     margin: 2rem;
     overflow: auto;
-}
-
-.banner__ul li{
-    margin: 1rem;
-}
-
-.banner__titulos{
-    transition: 1s;
-    text-decoration: underline;
-}
-
-.banner__titulos:hover{
-    transform: scale(1.2);
-}
-
-.swipe{
-    display: none;
+    .banner__ul li{
+        margin: 1rem;
+    }
+    .banner__titulos{
+        transition: 1s;
+        text-decoration: underline;
+    }
+    .banner__titulos:hover{
+        transform: scale(1.2);
+    }
+    .swipe{
+        display: none;
+    }
 }

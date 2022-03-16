@@ -28,15 +28,45 @@ footer {
   footer i:hover {
     transform: scale(1.3); }
 
-@media (max-width: 420px) {
-  .section__nosotros {
-    display: flex;
-    flex-direction: column; }
-  .swipe {
-    display: inline; }
-  .banner__ul li {
-    margin: 1rem;
-    padding: 1rem; } }
+.section__nosotros {
+  display: flex;
+  flex-direction: row;
+  background-image: url(../img/nosotrosbg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .section__nosotros .nosotros__img {
+    width: 100%;
+    border-radius: 50%;
+    padding: 1rem; }
+  .section__nosotros .section__texto {
+    color: white; }
+
+/* Section 2 */
+.section__banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: slategray; }
+  .section__banner .section__banner h3 {
+    margin: 1rem; }
+
+.banner__ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 2rem;
+  overflow: auto; }
+  .banner__ul .banner__ul li {
+    margin: 1rem; }
+  .banner__ul .banner__titulos {
+    transition: 1s;
+    text-decoration: underline; }
+  .banner__ul .banner__titulos:hover {
+    transform: scale(1.2); }
+  .banner__ul .swipe {
+    display: none; }
 
 .section {
   display: flex;
@@ -61,49 +91,12 @@ footer {
   height: 30px;
   width: 30px; }
 
-.section__nosotros {
-  display: flex;
-  flex-direction: row;
-  background-image: url(../img/nosotrosbg.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
-
-.nosotros__img {
-  width: 100%;
-  border-radius: 50%;
-  padding: 1rem; }
-
-.section__texto {
-  color: white; }
-
-/* Section 2 */
-.section__banner {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  background: slategray; }
-
-.section__banner h3 {
-  margin: 1rem; }
-
-.banner__ul {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  margin: 2rem;
-  overflow: auto; }
-
-.banner__ul li {
-  margin: 1rem; }
-
-.banner__titulos {
-  transition: 1s;
-  text-decoration: underline; }
-
-.banner__titulos:hover {
-  transform: scale(1.2); }
-
-.swipe {
-  display: none; }
+@media (max-width: 420px) {
+  .section__nosotros {
+    display: flex;
+    flex-direction: column; }
+    .section__nosotros .swipe {
+      display: inline; }
+  .banner__ul li {
+    margin: 1rem;
+    padding: 1rem; } }

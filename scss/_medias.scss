@@ -2,10 +2,11 @@
     .section__nosotros{
         display: flex;
         flex-direction: column;
+        .swipe{
+            display: inline;
+        }
     }
-    .swipe{
-        display: inline;
-    }
+
     .banner__ul li{
         margin: 1rem;
         padding: 1rem;}
