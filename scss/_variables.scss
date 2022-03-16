@@ -8,8 +8,8 @@ $colors: (
 
 // Mixin
 
-@mixin radioyancho ($radio, $ancho){
+@mixin radioysombra ($radio, $sombra){
     border-radius: $radio;
-    width: $ancho;
+    box-shadow: $sombra;
 }
 
