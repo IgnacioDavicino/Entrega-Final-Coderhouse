@@ -1,0 +1,15 @@
+.textocontacto{
+    background-color: darkgray;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    background-color: slategray;
+    .infocontacto{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+}

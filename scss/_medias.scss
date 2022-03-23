@@ -1,4 +1,7 @@
-@media (max-width: 420px){
+// NOSOTROS 
+
+
+@media (max-width:$mobile){
     .section__nosotros{
         display: flex;
         flex-direction: column;
@@ -10,4 +13,11 @@
     .banner__ul li{
         margin: 1rem;
         padding: 1rem;}
+}
+
+
+// CONTACTO 
+
+@media (max-width:$mobile){
+    .contacto{flex-direction: column;}
 }

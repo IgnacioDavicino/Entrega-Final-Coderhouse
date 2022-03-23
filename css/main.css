@@ -1,7 +1,7 @@
 * {
   font-family: 'Julius Sans One', sans-serif; }
 
-body, .card-title {
+body, .card-body .card-title {
   background-image: linear-gradient(97.3deg, rgba(25, 50, 70, 0.81) 10.7%, rgba(155, 65, 25, 0.72) 39.5%, rgba(255, 192, 0, 0.81) 69.7%); }
 
 .navbar img {
@@ -68,6 +68,10 @@ footer {
   .banner__ul .swipe {
     display: none; }
 
+.saber-mas {
+  text-decoration: none;
+  color: white; }
+
 .section {
   display: flex;
   justify-content: center;
@@ -80,16 +84,28 @@ footer {
 .carousel img {
   width: 100%; }
 
-.card-title {
-  color: white;
-  border-radius: 5%; }
-  .card-title .card-body {
-    background: slategray;
-    color: white; }
+.card-body {
+  background-color: darkgray; }
+  .card-body .card-title {
+    color: white;
+    border-radius: 5%; }
 
 .navbar__logo {
   height: 30px;
   width: 30px; }
+
+.textocontacto {
+  background-color: darkgray; }
+
+.contacto {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  background-color: slategray; }
+  .contacto .infocontacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: start; }
 
 @media (max-width: 420px) {
   .section__nosotros {
@@ -100,3 +116,7 @@ footer {
   .banner__ul li {
     margin: 1rem;
     padding: 1rem; } }
+
+@media (max-width: 420px) {
+  .contacto {
+    flex-direction: column; } }
