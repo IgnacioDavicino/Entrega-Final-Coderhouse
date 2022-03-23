@@ -21,7 +21,6 @@
 .card-body{
     background-color: darkgray;
     .card-title{
-    @extend body;
     color:white;
     border-radius: 5%;}
 }
